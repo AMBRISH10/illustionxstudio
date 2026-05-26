@@ -1093,7 +1093,10 @@ body.ifm-open {
 
   /* Hero adjustments */
   .hero-inner {
-    padding: 0 5% 80px;
+    padding: 0 5% 120px;
+  }
+   .hero-indicators {
+    bottom: 30px; /* Dropped down from 60px to get out of the way */
   }
   .hero-h1 {
     max-width: 100%;
