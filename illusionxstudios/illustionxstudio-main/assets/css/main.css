@@ -1178,8 +1178,12 @@ body.ifm-open {
 
   /* Hero small */
   .hero-inner {
-    padding: 0 4% 60px;
+    padding: 0 4% 110px;
   }
+   .hero-indicators {
+       bottom: 25px; /* Added this to drop the dots lower */
+     }
+   
   .hero-h1 {
     font-size: clamp(24px, 8vw, 36px) !important;
     letter-spacing: -1px;
